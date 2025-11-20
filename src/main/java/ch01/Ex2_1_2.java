@@ -1,3 +1,8 @@
+package ch01;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Ex2_1_2 {
     public int[] insertionSort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
@@ -10,5 +15,10 @@ public class Ex2_1_2 {
             arr[j + 1] = key;
         }
         return arr;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = new int[] {1, 3, 5, 6, 7, 8, 9, 10};
+        System.out.println(Arrays.toString(arr));
     }
 }
