@@ -17,8 +17,4 @@ public class Ex2_1_2 {
         return arr;
     }
 
-    public static void main(String[] args) {
-        int[] arr = new int[] {1, 3, 5, 6, 7, 8, 9, 10};
-        System.out.println(Arrays.toString(arr));
-    }
 }
