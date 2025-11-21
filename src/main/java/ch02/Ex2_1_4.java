@@ -1,4 +1,4 @@
-package ch01;
+package ch02;
 
 public class Ex2_1_4 {
     public int[] binaryAdd(int[] a, int[] b) {

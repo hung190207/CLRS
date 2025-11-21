@@ -1,4 +1,4 @@
-package ch01;
+package ch02;
 
 public class Ex2_1_3 {
     public int linearSearch(int[] arr, int target) {

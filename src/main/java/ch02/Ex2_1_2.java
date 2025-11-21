@@ -1,7 +1,4 @@
-package ch01;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
+package ch02;
 
 public class Ex2_1_2 {
     public int[] insertionSort(int[] arr) {
