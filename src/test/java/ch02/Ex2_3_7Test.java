@@ -17,7 +17,7 @@ class Ex2_3_7Test {
 
     @ParameterizedTest
     @MethodSource("test")
-    void main(int[] S, int x, boolean expected) {
+    void maintest(int[] S, int x, boolean expected) {
         boolean actual = new Ex2_3_7().twoSum(S, x);
         assertEquals(expected, actual);
     }
